@@ -1,27 +1,12 @@
 # Blockchain
+This project is a blockchain voting system. You are allow to make a vote, add multiple votes into a block, mine the block into the chain, and adjust the mining difficulty to secure the application.This website has four different pages, the home page, the settings page, the create vote page, and the pending votes page.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+The home page is where you can visualize the block chain, as well as visualize the transaction within the blockchain. The Block on Chain represents the actual visual of what the blockchain looks like and what blocks are in the chain.
 
-## Development server
+The settings page is where you can adjust the difficulty for the mining. If you increase the difficulty for the mining it will making processing the vote harder, where as if you decrease it will make processing the vote easier.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The create vote page is where you create your vote. When you create a vote it will provide you a Voter ID which is a public key to your vote, then you need to input your state and the candidate that you are voting for.
 
-## Code scaffolding
+The pending votes page is where you can mine the votes that werent processed. Mining encrypts the votes to locked inside the blockchain so it would need be changed or manipulated.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://vigilant-leavitt-4133eb.netlify.app/
